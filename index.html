@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=ol, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style></style>
+</head>
+
+<body>
+    <div class="to-do-container">
+
+        <h1>To Do List App</h1>
+    </div>
+    <div class="to-do-input-container">
+        <ol id="fruitlist" class="to-do-input-containe-ol">
+            <h3 style="margin: 0 auto;">Task Here</h3>
+
+            
+        </ol>
+        <input type="text" placeholder="Enter Your Task" id="FruitInput" class="to-do-input-container-input">
+        <button onclick="addToList()" class="btn">Add to List</button>
+    </div>
+
+    <script>
+        const fruits = []
+
+        function addToList() {
+            const fruitName = document.getElementById("FruitInput").value;
+            fruits.push(fruitName);
+            loadList();
+
+        }
+
+        function loadList() {
+            const fruitList = document.getElementById("fruitlist");
+            fruitList.innerHTML = ""
+            for (let i = 0; i < fruits.length; i++) {
+                fruitList.innerHTML = fruitList.innerHTML + `<li> ${fruits[i]} </li>`
+            }
+
+
+        }
+
+
+    </script>
+</body>
+
+</html>

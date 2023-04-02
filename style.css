@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://images.pexels.com/photos/1251862/pexels-photo-1251862.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+background-size: cover;
+background-repeat: no-repeat;
+background-color: #2980b9;
+}
+.to-do-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;    
+    /* flex-direction: column; */
+    background-color: rgb(1, 21, 21);
+    width: 100%;
+    color: #ffffff;
+  
+    box-shadow: 0px 1px 18px 1px #2196F3;
+}
+.to-do-input-container{
+    border: 2px solid black;
+   display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.203);
+    height: 250px;
+}
+.to-do-input-container button{
+margin-top: 20px;
+margin-bottom: 10px;
+}
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  .to-do-input-container-input{
+    height: 30px;
+    width: 25%;
+    outline: none;
+  }
+  ::placeholder{
+    text-align: center;
+  }
+  .to-do-input-containe-ol li{
+    font-size: 25px;
+    color: #3e1405;     
+    font-weight: bold;
+  }
