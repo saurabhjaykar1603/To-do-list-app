@@ -27,7 +27,7 @@ background-color: #2980b9;
     flex-direction: column;
     margin-top: 0px;
     background-color: rgba(0, 0, 0, 0.203);
-    height: 500px;
+    height: 550px;
 }
 .to-do-input-container button{
 margin-top: 20px;
