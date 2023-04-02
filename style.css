@@ -25,9 +25,9 @@ background-color: #2980b9;
     justify-content: center;
     align-items: center; 
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 0px;
     background-color: rgba(0, 0, 0, 0.203);
-    height: 250px;
+    height: 500px;
 }
 .to-do-input-container button{
 margin-top: 20px;
@@ -62,14 +62,15 @@ margin-bottom: 10px;
   }
   .to-do-input-container-input{
     height: 30px;
-    width: 25%;
+    width: 45%;
     outline: none;
+    border-radius: 10px;
   }
   ::placeholder{
     text-align: center;
   }
   .to-do-input-containe-ol li{
     font-size: 25px;
-    color: #3e1405;     
+    color: #ffffff;     
     font-weight: bold;
   }
